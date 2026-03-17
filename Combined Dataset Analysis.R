@@ -17,11 +17,7 @@ library(extrafont)
 # Load Xenium files
 # -----------------------------
 paths <- c(
-  "Y:/01 Common/Xenium/Results/20251003__115535__BPT_QNU66D_03102025/Individual files + ROI coordinates/D_files_seperate/D1921/cell_feature_matrix",
-  "Y:/01 Common/Xenium/Results/20251003__115535__BPT_QNU66D_03102025/Individual files + ROI coordinates/D_files_seperate/D1923/cell_feature_matrix",
-  "Y:/01 Common/Xenium/Results/20251003__115535__BPT_QNU66D_03102025/Individual files + ROI coordinates/D_files_seperate/D1924/cell_feature_matrix",
-  "Y:/01 Common/Xenium/Results/20251003__115535__BPT_QNU66D_03102025/Individual files + ROI coordinates/D_files_seperate/D1925/cell_feature_matrix",
-  "Y:/01 Common/Xenium/Results/20251003__115535__BPT_QNU66D_03102025/output-XETG00416__0077346__D-1922__20251003__115655/cell_feature_matrix"
+"insert paths here"
 )
 
 # Read Xenium files
