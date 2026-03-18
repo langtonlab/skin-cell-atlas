@@ -15,7 +15,7 @@ library(grid)
 # Load Xenium dataset
 #----------------------------------------
 xenium.obj <- LoadXenium(
-  "C:/Users/mikek/OneDrive - The University of Manchester/Xenium/Custom pan V2 OCT 2025/20251003__115535__BPT_QNU66D_03102025/output-XETG00416__0077735__SITE_C__20251003__115655",
+  "INSERT XENIUM FOLDER",
   fov = "fov", assay = "Xenium"
 )
 
@@ -214,7 +214,7 @@ ggplot(cell_type_counts, aes(x = "All Cells", y = Proportion, fill = CellType)) 
 # Load boundaires parquet file for spatial assessment
 #----------------------------------------------------
 
-seg_file <- "C:/Users/mikek/OneDrive - The University of Manchester/Xenium/Custom pan V2 OCT 2025/20251003__115535__BPT_QNU66D_03102025/output-XETG00416__0077735__SITE_C__20251003__115655/cell_boundaries.parquet"
+seg_file <- "INSERT cell_boundaries.parquet FILE PATH"
 
 seg_data <- read_parquet(seg_file)
 
