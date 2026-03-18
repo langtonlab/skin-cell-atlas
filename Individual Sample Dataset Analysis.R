@@ -12,7 +12,7 @@ library(patchwork)
 packageVersion("Seurat")
 
 xenium.obj <- LoadXenium(
-  "Y:/01 Common/Xenium/Results/20251003__115535__BPT_QNU66D_03102025/output-XETG00416__0077346__D-1922__20251003__115655",
+  "INSERT FOLDER PATH",
   assay = "Xenium"
 )
 
@@ -153,7 +153,7 @@ DimPlot(
 # Hightlight cell clusters spatially
 # -----------------------------
 
-seg_file <- "Y:/01 Common/Xenium/Results/20251003__115535__BPT_QNU66D_03102025/output-XETG00416__0077346__D-1922__20251003__115655/cell_boundaries.parquet"
+seg_file <- "INSERT cell_boundaries.parquet PATH"
 
 seg_data <- read_parquet(seg_file)
 
